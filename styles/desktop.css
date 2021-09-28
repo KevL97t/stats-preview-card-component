@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header{
+    height: 100vh;
+}
+
+.img-container{
+    height: 100vh;
+    background-image: url("../images/image-header-desktop.jpg");
+}
+
+.title-container{
+    margin-top: 200px;
+}
+
+.insights-main-container{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.insights-text-container{
+    position: relative;
+    width: calc(90% - 20px);
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.companies{
+    margin-left: -13px;
+}
+
+
