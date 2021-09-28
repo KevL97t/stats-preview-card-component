@@ -18,7 +18,7 @@ This is a preview card component created with html and css.
 ### Links
 
 - Solution URL: [Repository](https://github.com/KevL97t/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://kevl97t.github.io/stats-preview-card-component/)
 
 ## My process
 
