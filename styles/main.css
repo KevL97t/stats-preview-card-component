@@ -15,10 +15,21 @@ html{
     height: 230px;
 }
 
-.img-container img{
+.img-container{
+    width: 100%;
+    height: 230px;
+    background-image: url("../images/image-header-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(277, 40%, 40%);
+    background-blend-mode: soft-light;
+}
+
+
+/* .img-container img{
     height: 230px;
     width: 100%;
-}
+} */
 
 
 .title-container{
