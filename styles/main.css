@@ -7,17 +7,19 @@
 html{
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
+    background-color:  hsl(244, 38%, 16%);
 }
 
 .header{
     width: 100%;
-    height: 240px;
+    height: 230px;
 }
 
 .img-container img{
-    height: 240px;
+    height: 230px;
     width: 100%;
 }
+
 
 .title-container{
     position: relative;
@@ -29,28 +31,35 @@ html{
     padding-left: 30px;
     padding-right: 30px;
     font-weight: 700;
+    color: white;
+}
+
+.title-container b{
+    color: hsl(277, 64%, 61%);
 }
 
 .main-text-container{
     position: relative;
     font-size: 1.5rem;
-    line-height: 2.2rem;
+    line-height: 2.4rem;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     text-align: center;
     padding-right: 25px;
     padding-left: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .insights-main-container{
     position: relative;
-    margin-top: 30px;
+    margin-top: 40px;
     width: 100%;
     height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    color: hsl(0, 0%, 100%);
 }
 
 .insights-main-container h3{
@@ -68,8 +77,15 @@ html{
     margin-top: -135px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.6);
 }
 
 .attribution{
     margin-top: 60px;
+    color: white;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: rgb(64, 228, 160);
 }
