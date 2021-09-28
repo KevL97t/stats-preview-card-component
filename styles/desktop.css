@@ -33,4 +33,11 @@ body{
     margin-left: -13px;
 }
 
+.attribution{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 10px;
+    bottom: 5px;
+}
+
 
